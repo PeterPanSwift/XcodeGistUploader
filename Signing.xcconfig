@@ -1,0 +1,11 @@
+// Set this to your own Apple Developer Team ID before building.
+//
+// Find it with:
+//   security find-certificate -c "Apple Development" -p | openssl x509 -noout -subject
+// and read the OU field, or look under Membership at developer.apple.com.
+//
+// A real Team ID is required — ad-hoc signing ("-") does not work for this
+// extension. XcodeKit.framework has to be embedded in the appex, and dyld
+// refuses to load a nested library whose Team ID differs from the loading
+// process. Two unsigned ad-hoc identities do not count as matching.
+DEVELOPMENT_TEAM = G4HL98LX6L
