@@ -21,6 +21,10 @@ Both commands are also available from Xcode's Quick Actions (⇧⌘A):
 
 ![Upload Selection to Gist in Xcode Quick Actions](docs/upload-selection.png)
 
+The companion app shows the upload result with a clickable gist link:
+
+![GistUploader app window after a successful upload](docs/app-window.png)
+
 ## Requirements
 
 - macOS 14+, Xcode 14+
@@ -112,6 +116,10 @@ Hard-won lessons from building this (macOS 27 / Xcode 27):
 ![在 Xcode 快速動作中的 Upload File to Gist](docs/upload-file.png)
 
 ![在 Xcode 快速動作中的 Upload Selection to Gist](docs/upload-selection.png)
+
+容器 App 會顯示上傳結果與可點擊的 gist 連結：
+
+![上傳成功後的 GistUploader App 視窗](docs/app-window.png)
 
 ## 需求
 
