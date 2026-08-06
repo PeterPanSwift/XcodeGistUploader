@@ -15,6 +15,12 @@ Two commands under **Editor → Gist Uploader**:
 
 On success the gist URL is copied to your clipboard and a notification pops up. Gists are created **secret** by default.
 
+Both commands are also available from Xcode's Quick Actions (⇧⌘A):
+
+![Upload File to Gist in Xcode Quick Actions](docs/upload-file.png)
+
+![Upload Selection to Gist in Xcode Quick Actions](docs/upload-selection.png)
+
 ## Requirements
 
 - macOS 14+, Xcode 14+
@@ -100,6 +106,12 @@ Hard-won lessons from building this (macOS 27 / Xcode 27):
 | Upload Selection to Gist | 只上傳選取的程式碼（支援多重選取），以時間戳記命名 |
 
 上傳成功後 gist 網址會自動複製到剪貼簿並跳出通知。預設建立 **secret gist**。
+
+兩個指令也可以從 Xcode 的快速動作（⇧⌘A）呼叫：
+
+![在 Xcode 快速動作中的 Upload File to Gist](docs/upload-file.png)
+
+![在 Xcode 快速動作中的 Upload Selection to Gist](docs/upload-selection.png)
 
 ## 需求
 
